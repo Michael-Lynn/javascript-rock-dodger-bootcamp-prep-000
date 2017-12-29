@@ -123,7 +123,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval);
-  ROCKS.forEach(rock => rock.remove())
+  //ROCKS.forEach(rock => rock.remove())
   ROCKS.forEach(function(rock) { 
     rock.remove()
   });
