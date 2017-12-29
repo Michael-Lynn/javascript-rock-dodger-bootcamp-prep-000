@@ -132,7 +132,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  
+  e.stopkProbagation() 
   e.preventDefault()
   if (e.which === LEFT_ARROW){
     moveDodgerLeft()
